@@ -20,6 +20,7 @@
                         <div slot="label">Email <ion-text color="danger">(Required)</ion-text></div>
                     </ion-input>
                 </ion-item>
+                <ion-button router-link="/login">LogIn</ion-button>
     </ion-content>
   </ion-page>
 </template>

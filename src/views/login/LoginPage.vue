@@ -17,12 +17,16 @@
                     </ion-input>
                 </ion-item>
             </ion-list>
+            <LoginButton :label="buttonTittle"></LoginButton>
         </ion-content>
     </ion-page>
 </template>
 
 <script setup lang="ts">
 import { IonPage, IonHeader, IonContent, IonToolbar, IonTitle, IonList, IonItem, IonInput, IonText,} from '@ionic/vue';
+import LoginButton from '@/components/buttons/LoginButton.vue'
+
+const buttonTittle = 'LOG IN'
 </script>
 
 <style scoped>
